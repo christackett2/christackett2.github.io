@@ -18,6 +18,7 @@
 .tab {
     cursor: pointer;
     padding: 12px;
+    font-size: large;
 }
 .tab.active {
     background-color: rgb(196, 193, 193);
