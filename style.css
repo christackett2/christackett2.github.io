@@ -5,6 +5,11 @@
 .active[data-tab-content] {
     display: block;
 }
-body{
-    background-color: blueviolet;
+.tabs {
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px crimson;
 }
