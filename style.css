@@ -11,5 +11,16 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border-bottom: 2px crimson;
+    border-bottom: 2px solid crimson;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 12px;
+}
+.tab.active {
+    background-color: rgb(196, 193, 193);
+}
+.tab:hover {
+    background-color: rgb(158, 155, 155);
 }
